@@ -15,38 +15,30 @@ header{
     height: auto;
 }
 
-
 /*header*/
 .navigation{
-
     background-color: #1F2937;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:20px;
     padding:20px 200px 75px 200px;
+}
 
+.nav{
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo{  
-    
     color:#F9FAF8;
     font-size: 24px;
     font-weight: 800;
-    padding-bottom: 75px;
-    
-    
-   
+    padding-bottom: 75px; 
 }
-
 
 .menu{  
     display:flex;
-    justify-content: end;
+    justify-content: space-around;
     color:#E5E7EB;
     text-decoration: none;  
-    padding-top:10px;
-     
-   
+    padding-top:10px;  
 }
 
 .menu-link{
@@ -114,12 +106,32 @@ header{
     margin-bottom: 20px;
 }
 
-.newsletter-inside{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:20px;
+.quote-box{
+    background-color: #e5e7eb; 
+    padding:200px
+}
+
+.quote-text p{
+    font-size: 36px; 
+    font-style: italic; 
+    color:#1f2937; 
+}
+
+.newsletter{
+    padding:120px;
+}
+
+.newsletter-inside{   
+    display: flex;
+    justify-content: space-between;
     color:white;
     border-radius: 20px;
+    padding:75px 150px; 
+    background-color: #3882f6;
+}
+
+.newsletter-inside-content h3{
+    font-size:22px; 
 }
 
 .newsletter-inside-button-container{
